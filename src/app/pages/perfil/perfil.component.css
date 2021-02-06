@@ -1,0 +1,17 @@
+.perfil {
+  margin: 24px;
+  border: 2px solid transparent;
+  border-radius: 12px;
+}
+
+.perfil .accent {
+  background-color: #3f51b5;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 10px;
+  border-radius: 4px;
+}
+
+.perfil mat-card-title {
+  font-size: 16px!important;
+}

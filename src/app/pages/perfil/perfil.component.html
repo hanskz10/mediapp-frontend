@@ -1,0 +1,19 @@
+<div class="perfil">
+  <header class="accent">
+    <div class="title">Mi Perfil</div>
+  </header>
+  <mat-card>
+    <mat-card-title>Usuario:</mat-card-title>
+    <mat-card-content>{{usuario}}</mat-card-content>
+  </mat-card>
+  <br/>
+  <mat-card>
+      <mat-card-title>Roles:</mat-card-title>
+      <mat-list *ngFor="let rol of roles">
+          <mat-list-item>* {{rol}}</mat-list-item>
+      </mat-list>
+  </mat-card>
+</div>
+
+
+
